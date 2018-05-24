@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import biq.java8.exam.model.Person;
+import biq.java8.exam.model.person.Person;
 /*
         Method references let you reuse a method as a lambda expression.
         It’s a way to pass a method name without calling it.

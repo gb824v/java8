@@ -4,10 +4,9 @@ package biq.java8.exam.Streams.Intro;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
-import biq.java8.exam.Lambda.Predicate.model.Person;
+import biq.java8.exam.model.person.Person;
 /*
     Streams (not to be confused with I/O Streams) are a new way in Java to work with
-    Collections of items without the need to iterate over each item individually.
     Works with Collections (List, Set, Map, etc.) and with Arrays – but they are NOT data structures on their own.
     Enables easy operations such as sum, average, count, max, min, filter, map and more on items.
     Also – enables easy, simple parallel operations without the need to explicitly work with Threads.

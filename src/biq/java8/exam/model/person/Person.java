@@ -1,4 +1,5 @@
-package biq.java8.exam.Streams.Model;
+package biq.java8.exam.model.person;
+
 
 public class Person {
 
@@ -30,4 +31,11 @@ public class Person {
     public String toString() {
         return this.name + " (" + this.age + ")";
     }
+
+    //return 0 if p1 age is equal to p2, 1 if greater, -1 if smaller
+    public static int compareByAge(Person p1, Person p2) {
+        Integer age1 = p1.getAge();
+        return age1.compareTo(p2.getAge());
+    }
+
 }

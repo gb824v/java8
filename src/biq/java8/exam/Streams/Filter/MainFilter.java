@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.List;
 import java.util.function.Predicate;
 
-import biq.java8.exam.Lambda.Predicate.model.Person;
+import biq.java8.exam.model.person.Person;
 
 
 public class MainFilter {
