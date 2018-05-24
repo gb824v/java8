@@ -35,7 +35,7 @@ public class MainFilter {
             }
         });
 
-        //Option 2 Stream ForEach
+        //Option 2 Stream ForEach with filter
         people.stream().filter(condition).forEach(System.out::println);
     }
 }

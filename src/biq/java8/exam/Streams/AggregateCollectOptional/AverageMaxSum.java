@@ -8,7 +8,7 @@ import java.util.OptionalInt;
 import biq.java8.exam.model.person.Person;
 
 
-public class AggregateMain {
+public class AverageMaxSum {
 
     public static void main(String[] args) {
         List<Person> beatles = new ArrayList<>();
@@ -32,7 +32,7 @@ public class AggregateMain {
         }
 
         //option 2 - use a Lambda!
-        avg.ifPresent(AggregateMain::printAverage);
+        avg.ifPresent(AverageMaxSum::printAverage);
     }
 
     static private void printAverage(double average) {
