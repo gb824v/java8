@@ -1,4 +1,4 @@
-package biq.java8.exam.Lambda.Builtin;
+package biq.java8.exam.Lambda.Basic;
 
 import java.util.ArrayList;
 import java.util.Collections;

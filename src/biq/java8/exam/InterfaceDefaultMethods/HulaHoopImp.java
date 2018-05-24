@@ -1,6 +1,6 @@
-package biq.java8.exam.InterfaceMethods;
+package biq.java8.exam.InterfaceDefaultMethods;
 
-public class HulaHoop implements Circle {
+public class HulaHoopImp implements Circle {
     private double radius;
 
     @Override

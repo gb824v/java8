@@ -1,8 +1,8 @@
-package biq.java8.exam.InterfaceMethods;
+package biq.java8.exam.InterfaceDefaultMethods;
 
-public class SimpleCircle implements Circle{
+class SimpleCircleImp implements Circle {
     private double radius;
-    
+
     @Override
     public double getRadius() {
         return radius;

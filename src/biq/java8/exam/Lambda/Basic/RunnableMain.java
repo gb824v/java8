@@ -1,4 +1,4 @@
-package biq.java8.exam.Lambda.Builtin;
+package biq.java8.exam.Lambda.Basic;
 //LambdaExpressions.mp3 min 5
 public class RunnableMain {
     public static void main(String[] args) {

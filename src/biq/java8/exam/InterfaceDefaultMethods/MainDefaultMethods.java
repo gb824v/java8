@@ -1,11 +1,11 @@
-package biq.java8.exam.InterfaceMethods;
+package biq.java8.exam.InterfaceDefaultMethods;
 
-public class DefaultMethodsMain {
+public class MainDefaultMethods {
     public static void main(String[] args) {
-        Circle myCircle = new SimpleCircle();
+
+        Circle myCircle = new SimpleCircleImp();
         myCircle.setRadius(10);
-        
         System.out.println("Circle Area is: " + myCircle.area());
-        
+
     }
 }

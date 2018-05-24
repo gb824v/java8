@@ -22,7 +22,7 @@ public class ComparisonMethodReferences {
         beatles.add(new Person("George", 58));
         beatles.add(new Person("Ringo", 74));
 
-        PersonComparison comparison = new PersonComparison();
+
 /*
 MethodReferences
         Method references let you reuse a method as a lambda expression.
@@ -39,6 +39,7 @@ MethodReferences
             ContainingType::methodName
 
 		*/
+        PersonComparison comparison = new PersonComparison();
 
         //option 1 - anonymous interface
         Collections.sort(beatles, new Comparator<Person>() {
@@ -60,7 +61,7 @@ MethodReferences
         Collections.sort(beatles, (p1, p2) -> new Integer(p1.getAge()).compareTo(p2.getAge()));
 
         //option 4 - method reference
-        Collections.sort(beatles, new PersonComparison()::compareByAge);
+        Collections.sort(beatles, comparison::compareByAge);
     }
 
     public class PersonComparison {
