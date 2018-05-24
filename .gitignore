@@ -4,7 +4,7 @@
 *.classpath
 *.csv
 **/.settings/**
-**/test-output/**
+**/FridayTest-output/**
 **/target/**
 /target/
 /.idea/

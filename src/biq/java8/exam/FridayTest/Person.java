@@ -1,4 +1,4 @@
-package test;
+package biq.java8.exam.FridayTest;
 
 import java.util.Arrays;
 

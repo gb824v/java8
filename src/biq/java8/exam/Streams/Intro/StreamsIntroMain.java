@@ -1,6 +1,7 @@
 package biq.java8.exam.Streams.Intro;
 
 
+import java.util.Arrays;
 import java.util.stream.Stream;
 
 import biq.java8.exam.Lambda.Predicate.model.Person;
@@ -45,12 +46,14 @@ public class StreamsIntroMain {
         }
         
         //Using a Stream - first way
-        Stream<Person> stream = Stream.of(beatles);
+        Stream<Person> stream1 = Stream.of(beatles);
         
         //Using a Stream - second way
-        //Stream<Person> stream = Arrays.stream(beatles);
+        Stream<Person> stream2 = Arrays.stream(beatles);
         
         //Iterate over the stream
-        stream.forEach((p) -> System.out.println(p));
+        //forEach also existing in streams
+        stream1.forEach((p1) -> System.out.println(p1));
+        stream2.forEach((p2) -> System.out.println(p2));
     }
 }
