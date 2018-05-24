@@ -29,7 +29,7 @@ import biq.java8.exam.Lambda.Predicate.model.Person;
 */
 
 
-public class StreamsIntroMain {
+public class MainStreamsIntro {
 
     public static void main(String[] args) {
         Person[] beatles = {

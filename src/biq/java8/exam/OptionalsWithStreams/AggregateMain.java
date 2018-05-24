@@ -1,4 +1,4 @@
-package biq.java8.exam.Optional;
+package biq.java8.exam.OptionalsWithStreams;
 
 import java.util.ArrayList;
 import java.util.List;

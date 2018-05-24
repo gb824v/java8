@@ -1,4 +1,4 @@
-package biq.java8.exam.MethodReferences.model;
+package biq.java8.exam.model;
 
 
 public class Person {
