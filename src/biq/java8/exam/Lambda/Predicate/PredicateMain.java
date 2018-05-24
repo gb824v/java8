@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
-import biq.java8.exam.Lambda.Predicate.model.Person;
+import biq.java8.exam.model.person.Person;
+
 /*
 		The java.util.function Package contains new Function Interfaces which in combination with
 			JCF (Java Collection Framework) and other new classes enables easier and shorter code.

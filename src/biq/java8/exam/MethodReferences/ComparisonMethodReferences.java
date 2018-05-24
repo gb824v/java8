@@ -5,7 +5,8 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import biq.java8.exam.Lambda.Predicate.model.Person;
+import biq.java8.exam.model.person.Person;
+
 
 public class ComparisonMethodReferences {
 

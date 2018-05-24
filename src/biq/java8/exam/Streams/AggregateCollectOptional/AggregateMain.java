@@ -1,10 +1,11 @@
-package biq.java8.exam.OptionalsWithStreams;
+package biq.java8.exam.Streams.AggregateCollectOptional;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.OptionalDouble;
+import java.util.OptionalInt;
 
-import biq.java8.exam.Lambda.Predicate.model.Person;
+import biq.java8.exam.model.person.Person;
 
 
 public class AggregateMain {
@@ -18,27 +19,23 @@ public class AggregateMain {
         beatles.add(new Person("Ringo", 74));
 
         //sum of ages
-        long sum = beatles
-                    .stream()
-                    .mapToInt(Person::getAge)    //return a stream of int
-                    .sum();
+        long sum = beatles.stream().mapToInt(Person::getAge).sum(); //return a stream of int
         System.out.println("Sum of ages = " + sum);
-        
-        OptionalDouble avg = beatles
-                .stream()
-                .mapToInt((p) -> p.getAge())
-                .average();
-        
+
+        //if the stream is empty
+        OptionalDouble avg = beatles.stream().mapToInt((p) -> p.getAge()).average();
+        OptionalInt max = beatles.stream().mapToInt((p) -> p.getAge()).max();
+
         //option 1 - check if there is a value
-        if (avg.isPresent()){
+        if (avg.isPresent()) {
             System.out.println("Average of ages = " + avg.getAsDouble());
         }
-        
+
         //option 2 - use a Lambda!
-//        avg.ifPresent(AggregateMain::printAverage);
+        avg.ifPresent(AggregateMain::printAverage);
     }
-    
-//    static private void  printAverage (double average){
-//        System.out.println("Average of ages = " + average);
-//    }
+
+    static private void printAverage(double average) {
+        System.out.println("Average of ages = " + average);
+    }
 }
