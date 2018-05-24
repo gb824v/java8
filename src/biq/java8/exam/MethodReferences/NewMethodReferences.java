@@ -16,7 +16,7 @@ import java.util.List;
             ClassName::new
 */
 
-class MainMReferenceNew {
+class NewMethodReferences {
 
     public static void main(String argv[]) {
         createFactory();

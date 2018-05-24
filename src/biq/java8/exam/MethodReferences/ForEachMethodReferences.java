@@ -2,7 +2,7 @@ package biq.java8.exam.MethodReferences;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainMReferencesForEach {
+public class ForEachMethodReferences {
 
     public static void main(String[] args) {
         List<String> myString = new ArrayList<>();

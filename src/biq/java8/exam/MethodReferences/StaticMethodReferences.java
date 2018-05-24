@@ -12,7 +12,7 @@ import biq.java8.exam.MethodReferences.model.Person;
         <Where the method is found> :: <method name>
 */
 
-public class MainStaticMReferences {
+public class StaticMethodReferences {
 
     public static void main(String[] args) {
         List<Person> beatles = new ArrayList<>();
