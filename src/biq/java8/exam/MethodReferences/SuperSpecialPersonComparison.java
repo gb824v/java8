@@ -1,4 +1,5 @@
 package biq.java8.exam.MethodReferences;
+
 import biq.java8.exam.Lambda.Predicate.model.Person;
 
 public class SuperSpecialPersonComparison {

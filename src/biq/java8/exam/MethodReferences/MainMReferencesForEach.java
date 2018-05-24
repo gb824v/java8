@@ -23,6 +23,11 @@ public class MainMReferencesForEach {
         It’s a way to pass a method name without calling it.
         Use a method reference is done using the following syntax:
         <Where the method is found> :: <method name>
+        When using a method reference, the Java complier uses Type inference to check
+        if the method signature is compatible with the Functional Interface single function signature –
+        if both methods signatures match then the method reference can be used.
+        Using method reference allows you to implement less interfaces and just write methods
+        the do the work and pass them as parameters.
 
         forEach(Consumer<T>)
         Consumer<T> = Accept a single input argument of type T, and return no result
