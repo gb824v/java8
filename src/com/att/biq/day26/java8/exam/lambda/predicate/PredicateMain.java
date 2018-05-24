@@ -16,9 +16,9 @@ public class PredicateMain {
         beatles.add(new Person("George", 58));
         beatles.add(new Person("Ringo", 74));
         
-//        Predicate<Person> ageCondition = new Predicate<Person>() {
+//        Predicate<Person.java> ageCondition = new Predicate<Person.java>() {
 //            @Override
-//            public boolean test(Person t) {
+//            public boolean test(Person.java t) {
 //                if (t.getAge() > 70){
 //                    return true;
 //                } else {
@@ -29,7 +29,7 @@ public class PredicateMain {
         Predicate<Person> agePredicate = (person) -> person.getAge() > 70;
 
         
-//        for (Person beatle : beatles) {
+//        for (Person.java beatle : beatles) {
 //            if (agePredicate.test(beatle)){
 //                System.out.println(beatle);
 //            }

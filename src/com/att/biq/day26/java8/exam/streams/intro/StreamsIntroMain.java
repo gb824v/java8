@@ -18,12 +18,12 @@ public class StreamsIntroMain {
         
 //        //The Old way to iterate over an array
 //        for (int i = 0; i < beatles.length; i++) {
-//            Person beatle = beatles[i];
+//            Person.java beatle = beatles[i];
 //            System.out.println(beatle);
 //        }
         
         //Using a Stream - first way
-//        Stream<Person> stream = Stream.of(beatles);
+//        Stream<Person.java> stream = Stream.of(beatles);
         
         //Using a Stream - second way
         Stream<Person> stream = Arrays.stream(beatles);
